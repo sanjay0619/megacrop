@@ -66,6 +66,16 @@ nav button:hover {
     border: none;
 }
 
+nav span {
+    background: none;
+    border: none;
+}
+
+nav span:hover {
+    background: none;
+    border: none;
+}
+
 nav ul {
     display: flex;
     width: 60%;
@@ -291,6 +301,10 @@ hr {
     font-size: -0.6rem;
 }
 
+.bottom .hide {
+    display: inline-block;
+}
+
 .bottom hr {
     width: 100%;
     margin-bottom: 1.2rem;
@@ -470,6 +484,14 @@ footer p {
         background: none;
         border: none;
     }
+    nav span {
+        background: none;
+        border: none;
+    }
+    nav span:hover {
+        background: none;
+        border: none;
+    }
     nav h2 {
         margin-left: 0.8rem;
     }
@@ -588,7 +610,10 @@ footer p {
     }
     .bottom p {
         line-height: 1.6rem;
-        font-size: 1rem;
+        font-size: 0.9rem;
+    }
+    .bottom .hide {
+        display: none;
     }
     /*footer*/
     footer {
