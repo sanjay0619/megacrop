@@ -301,7 +301,7 @@ hr {
     font-size: -0.6rem;
 }
 
-.bottom .hide {
+.bottom .image .hide {
     display: inline-block;
 }
 
@@ -479,18 +479,22 @@ footer p {
         display: block;
         background: none;
         border: none;
+        outline: none;
     }
     nav button:hover {
         background: none;
         border: none;
+        outline: none;
     }
     nav span {
         background: none;
         border: none;
+        outline: none;
     }
     nav span:hover {
         background: none;
         border: none;
+        outline: none;
     }
     nav h2 {
         margin-left: 0.8rem;
@@ -612,7 +616,7 @@ footer p {
         line-height: 1.6rem;
         font-size: 0.9rem;
     }
-    .bottom .hide {
+    .bottom .image .hide {
         display: none;
     }
     /*footer*/
